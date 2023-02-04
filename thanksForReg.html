@@ -1,0 +1,103 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Website</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- fontawesome CDN -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+</head>
+<style>
+/* circle css*/
+#circle {
+    height: 800px;
+    width: 800px;
+    border-radius: 50%;
+    background: #01ce6915;
+    position: absolute;
+    left: 2%;
+    bottom: 9%;
+}
+/* content css */
+#content {
+    height: auto;
+    width: 700px;
+    position: absolute;
+    right: 25%;
+}
+
+#content h2 {
+    font-size: 90px;
+    color: #01ce69;
+    margin: 10%;
+}
+
+#content p {
+    font-size: 19px;
+    color: #01ce69;
+    margin: 10%;
+}
+#logo {
+    position: absolute;
+    top: 50px;
+    left: 5%;
+    font-size: 34px;
+    color: #01ce69;
+    font-weight: bolder;
+}
+#socialLinks {
+    position: absolute;
+    bottom: 5%;
+    right: 2%;
+    display: flex;
+    flex-direction: column;
+}
+#socialLinks a {
+    text-decoration: none;
+    margin: 12px 0;
+}
+#socialLinks a i {
+    height: 50px;
+    width: 50px;
+    margin: 0 20px;
+    font-size: 20px;
+    color: #dce8f7;
+    background: #01ce69;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+}
+#socialLinks a i:hover {
+    background: transparent;
+    color: #01ce69;
+    border: 2px solid #01ce69;
+}
+</style>
+<body>
+    <div id="container">
+        <div id="circle"></div>
+        <div id="content">
+            <h2>Welcom to Melodies fmily!</h2>
+            <p>You can go to your home by one <a href="music.html">Click</a> .</p>
+        </div>
+        <div id="socialLinks">
+            <!-- facebook -->
+            <a href="http://www.facebook.com">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+            <!-- instagram -->
+            <a href="http://www.instagram.com">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <!-- youtube -->
+            <a href="https://www.youtube.com/">
+                <i class="fab fa-youtube"></i>
+            </a>
+     
+    </div>
+</body>
+</html>
