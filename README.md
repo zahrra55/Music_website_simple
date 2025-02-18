@@ -27,15 +27,6 @@ First Time run this file
 ```
 
 
-## Authors
-
-- [Zahraa Ibrahim](https://github.com/zahrra55)
-
-## License
-
-[MIT license](https://mit-license.org/)
-
-
 
 ## Screenshots
 
